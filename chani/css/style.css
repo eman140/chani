@@ -1,0 +1,265 @@
+/*Global*/
+body {
+   font-family: 'Roboto', san serif;
+   font-weight:400;
+   font-size: 16px;
+}
+div {
+    display: block;
+}
+ img {
+  max-width:100%;
+}
+.btn{
+background-color:#89b837;
+border:0;
+color:#eee;
+}
+/* Nav*/
+.navbar {
+margin-bottom :0;
+border:0;
+background-color:#fff;
+}
+.navbar-default .navbar-brand {
+    color:#89b837;
+}
+.navbar-default .navbar-nav> li.active >a {
+    color:#89b837;
+	background-color:transparent;
+}
+.navbar-default .navbar-nav> li.active >a:hover {
+    color:#fff;
+}
+ul.navbar-nav > li > a:hover {
+    background-color: #89b837 !important;
+	color:#fff!important;
+}
+.navbar-default .navbar-toggle {
+    background-color: #89b837;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/*Hero*/
+.hero{
+position:relative;
+}
+.hero img{
+ width:100%;
+}
+.hero-text{
+position:absolute;
+top:0;
+bottom:0;
+font-size:0;
+}
+.hero-text:before{
+content:'';
+display: inline-block;
+height:100%;
+vertical-align:middle;
+}
+.hero-text  p {
+display:inline-block;
+vertical-align: middle;
+text-align:center;
+width:100%;
+background-color:rgba(225,225,225,0.1);
+border-radius:10px;
+color: #eee;
+font-size:40px;
+padding: 3%;
+line-height:60px;
+}
+@media screen and (max-width: 768px){
+.hero-text p {
+font-size:20px;
+line-height:20px;
+}
+}
+/*Section*/
+.col-md-12{
+   text-align:center;
+   }
+ h2:after {
+    display: block;
+    background: #89b837;
+    content: " ";
+    margin: 20px auto;
+    height: 2px;
+    width: 50px;
+}
+.services-box-icon i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #89b837;
+    color: #fff;
+    font-size: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.divider {
+    width: 100%;
+    height: 100px;
+}
+.col-md-4{
+padding:10px;
+}
+.bar {
+  
+	line-height: 1.5em;
+  background-color:#eee;
+  padding: 80px 0px;
+}
+.showcase .item {
+    text-align: center;
+	color:#7b7b7b;
+	font-size:30px;
+}
+.showcase .item .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #89b837;
+    line-height: 50px;
+    border-radius: 25px;
+    border: solid 2px #89b837;
+	font-size:30px;
+}
+
+
+.no-mb {
+    margin-bottom: 0 !important;
+}
+.wide-img{
+position:relative;
+margin: 0px !important;
+}
+#left-col {
+    background-image:url(../images/laptop.jpg);
+	background-repeat:no-repeat;
+	padding:0px; 
+	background-size:cover;
+	position:absolute;
+	height:100%;
+
+}
+
+@media screen and (min-width:990px){
+.left-col{
+     width:50%;
+}
+
+}
+.right-col-inner{
+padding:80px;
+}
+.right-col{
+color:#eee;
+padding:0;
+background-color: #333333;
+}
+
+@media (max-width: 768px)  {
+   .right-col-inner  {
+        margin-left: 15px;
+    }
+}
+@media (min-width: 768px)  {
+   .right-col-inner  {
+        margin-left: 15px;
+    }
+}
+
+.section3 {
+
+}@media (max-width: 768px)  {
+  .left-col{
+        display:none;
+    }
+}
+.fes7-box-icon {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+}
+
+.fes7-box-icon i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #89b837;
+    color: #fff;
+    font-size: 17px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.fes7-box-info {
+    padding-left: 65px;
+}
+
+.btn-lg{
+padding: 14px 28px 13px 28px;
+margin-top: 20px;
+}
+
+.carousel {
+width:100%;
+}
+.testimonial{
+  background-image: url(../images/feature-bg1.jpg);
+  color:#eee;
+  line-height: 1.5em;
+  background-attachment:fixed;
+  padding: 30px 0px;
+}
+.testimonial cite img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 5px;
+}
+.testimonial p{
+text-align:justify;
+margin-top:30px;
+}
+.callout-light {
+    padding: 50px;
+	color: #7b7b7b;
+	background-color: #eee;
+}
+.callout {
+   padding-left: 100px;
+}
+
+#footer {
+background-color:#333333;
+margin-top:20px;
+color:#aeaeae;
+margin-top:0;
+}
+.footer-col h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+}
+
